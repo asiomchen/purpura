@@ -26,7 +26,7 @@ jobs:
         uses: github/codeql-action/init@v2
         with:
           languages: python
-          config-file: ./.codeql.yml
+          config-file: ./.codeql.yaml
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
