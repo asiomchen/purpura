@@ -1,0 +1,23 @@
+[project]
+name = "purpura"
+version = "0.0.1"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Anton Siomchen", email = "41703271+asiomchen@users.noreply.github.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "epam-indigo>=1.34.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.13,<0.9.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+    "pytest>=8.4.1",
+    "pytest-cov>=6.2.1",
+]
